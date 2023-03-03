@@ -72,6 +72,12 @@
   padding: 0%;
   margin: 0%;
 }
+.navbar-toggler{
+  background-color: white !important;
+}
+.navbar-toggler-icon{
+  color: #fff !important;
+}
 .main-search-sub {
   width: 500px;
   border: 2px solid white;
@@ -144,8 +150,14 @@
   font-weight: 400;
 }
 .card-body1 {
-  width: 600px;
+  width: 40vw;
   border-radius: 0%;
+}
+.card {
+  background-color: #434343 !important;
+  color: #fff !important;
+  padding: 0.5em;
+  margin: 0.2em;
 }
 .faq p {
   color: white;
@@ -184,12 +196,18 @@
     text-align: center;
     font-weight: 600;
     color: white;
-    font-size: small;
+    font-size: medium;
+  }
+  .main-heading{
+    width: 100%;
+    padding: 1em;
+    align-items: center;
+    justify-content: center;
   }
   .main-heading p {
     text-align: center;
     color: white;
-    font-weight: 200;
+    font-weight: 600;
     font-size: small;
     margin: 1px;
   }
@@ -202,13 +220,13 @@
   } */
   .main-search-sub {
     margin: 0%;
-    width: 100%;
+    width: 250%;
     height: 40px;
   }
   .main-btn {
     color: white;
     font-weight: 400;
-    width: 100%;
+    width: 150%;
     height: 40px;
     font-size: x-small;
   }
@@ -217,7 +235,7 @@
     font-size: small;
   }
   .partition {
-    height: 30vh;
+    height: 32vh;
     align-items: center;
     justify-content: center;
     flex-direction: column;
